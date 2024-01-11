@@ -25,7 +25,7 @@ const Goods = () => {
           <img src="/img/Support 2.png" alt="logo" />
       </div>
         <div className='attention'>
-        <img src='/img/Attention.png'></img>
+        <img src='/img/attention.png'></img>
         </div>
     <div className='goods-wrap'>
       

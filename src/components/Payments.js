@@ -32,12 +32,12 @@ const handleImageLoad = () => {
         <img src={foundItem.url}/>
         </div>
         <div className='payment-links'>
-      <Link className='payment-link' to="/payment"><img src="/img/Payment.png"></img></Link>
-      <Link className='payment-link' to="https://qiwi.com/p/77472636097"><img src="/img/Payment 2.png"></img></Link>
-      <Link className='payment-link' to={goodLink}><img src="/img/Payment 3.png"></img></Link>
+      <Link className='payment-link' to="/payment"><img src="/img/binance.png"></img></Link>
+      <Link className='payment-link' to="https://qiwi.com/p/77472636097"><img src="/img/qiwi.png"></img></Link>
+      <Link className='payment-link' to={goodLink}><img src="/img/anypay.png"></img></Link>
       </div>
       <div className='payments-attention'>
-        <img src='/img/Attention.png'/>
+        <img src='/img/attention.png'/>
         </div>
     </div>
       )}

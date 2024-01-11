@@ -31,7 +31,7 @@ const Home = () => {
    
          <div className="home-buttons">
            <Link to="/goods/fortnite" className="image-link-home">
-             <img src="/img/Button 1.png" className="home-button" alt="logo" />
+             <img src="/img/Button 1.png" className="home-button" alt="logo1" />
            </Link>
            <Link to="/goods/overwatch" className="image-link-home">
              <img src="/img/Button 2.png" className="home-button" alt="logo" />
@@ -40,7 +40,7 @@ const Home = () => {
    
          <div className="home-go">
            <Link to="https://t.me/dankwistshop_reviews" className="image-link-home-go">
-             <img src="/img/Go.png" className="home-button" alt="logo" />
+             <img src="/img/reviews.png" className="home-button" alt="logo" />
            </Link>
          </div>
    
