@@ -1,0 +1,35 @@
+.attention{
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.attention img{
+    width: 94%;
+}
+.goods-wrap{
+    
+    margin: 0 auto;
+    width: 94%;
+    display: flex;
+  flex-wrap: wrap;
+}
+.good{
+    flex-basis: 100%; /* Adjust the percentage based on the number of items you want in a row */
+  box-sizing: border-box;
+}
+.good img{
+    width: 100%;
+}
+
+.support{
+  display: block;
+  position: fixed;
+  z-index: 10;
+  margin-left: calc(90vw - (5vh * 2));
+  margin-top: 65vh;
+}
+.support img{
+  height: 10vh;
+  display: block;
+}

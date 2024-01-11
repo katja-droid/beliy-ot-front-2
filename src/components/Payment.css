@@ -1,0 +1,42 @@
+.payment-info{
+    
+    width: inherit; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-weight: bold;
+   
+  }
+  .payment-info-wrapper{
+    
+    margin-top: 10px;
+    font-size: 0.6em;
+    width: 96%;
+    margin: 0 auto;
+    font-weight: bold;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.1) 70%);
+ 
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+  }
+  .payment-info-content{
+    width: 99%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .support-pay{
+    display: block;
+    position: fixed;
+    z-index: 10;
+    margin-left: calc(90vw - (5vh * 2));
+    margin-top: 75vh;
+  }
+  .support-pay img{
+    height: 10vh;
+    display: block;
+  }

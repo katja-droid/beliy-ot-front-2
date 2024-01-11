@@ -1,0 +1,46 @@
+.payments-good{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.payments-good img{
+    width: 100%;
+    margin: auto auto;
+}
+.payment-links{
+    width: 94%;
+    margin: 0 auto;
+}
+.payment-link{
+    width: 94%;
+}
+.payment-link img{
+    width: 100%;
+    margin: auto auto;
+    
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.payments-attention{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.payments-attention img{
+    width: 100%;
+    margin: auto auto;
+}
+.support{
+    display: block;
+    position: fixed;
+    z-index: 10;
+    margin-left: calc(90vw - (5vh * 2));
+    margin-top: 65vh;
+  }
+  .support img{
+    height: 10vh;
+    display: block;
+  }
+ 
